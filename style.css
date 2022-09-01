@@ -1,0 +1,33 @@
+title{
+  text-shadow: 3px 2px yellow;
+}
+body {
+  
+  font-family: monospace;
+  background:url(./101.jpg)  no-repeat center center;
+  background-size:cover;
+  background-color: rgb(213, 195, 210);
+}
+h1{
+    text-align: left;
+  color:rgb(21, 131, 96)
+}
+h2{
+    text-align: left;
+  color:rgb(57, 21, 107)
+}
+h3{
+    text-align: left;
+  color:rgb(63, 16, 16)
+}
+p{
+    text-align: left;
+  font-size:20px;
+  color:rgb(35, 87, 87)
+}
+  img {
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+}
