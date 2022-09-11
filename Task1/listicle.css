@@ -1,0 +1,107 @@
+title{
+    text-shadow: 3px 2px rgb(244, 244, 241);
+  }
+
+  body {
+    font-family: 'Roboto Slab';
+    background-color: white;
+  }
+ 
+  .image {
+        background-image: linear-gradient(rgba(0, 0, 0,.3), rgba(0, 0, 0, .3)),url('images/header.jpg');
+        font-family: 'Roboto Slab',serif;
+        height: 500px;
+        background-size: 100%;
+        background-attachment:cover;
+        background-position: top;
+        position: absolute;
+        z-index: 2;
+        width: 1280px;
+    }
+
+    .circular--square { 
+        display: block;
+        top: 440px;
+        margin-left: 550px;
+        border-radius: 50%;
+        border-spacing: inherit;
+        width: 100px;
+        position: relative;
+        z-index: 3; 
+        }
+
+    .header {
+        padding-top: 180px;
+        padding-left: 230px;
+        color: white;
+        font-size: 36px;
+        font-weight: normal;
+        max-width: 780px;
+        text-align: center;
+        z-index: 1;
+        font-family: 'Roboto Slab',serif; 
+        }
+  
+
+  h2{
+    padding-top: 40px;
+    text-align: left;
+    color:black;
+    font-family: 'Roboto Slab',serif;
+
+    }
+
+
+  h3{
+    padding-top: 360px;
+    padding-left: 440px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight:bold;
+    color:rgb(51, 51, 51);
+    }
+
+  h4{
+    padding-top: -6px;
+    padding-left: 398px;
+    font-style: italic;
+    font-family: 'Source Sans Pro',sans-serif;
+    color:rgb(51, 51, 51);
+    text-decoration:underline #e6e6e6;
+
+    }
+
+ span{
+    text-align: left;
+    padding-top: 2px;
+    padding-left: 40px;
+    font-size:36px;
+    width: 67.67%;
+    }
+
+ a{
+    text-align: left;
+    padding-left: 110px;
+    font-size:20px;
+    color:black;
+    width: 67.67%;  
+ }
+ 
+ p{
+    text-align: left;
+    padding-left: 110px;
+    font-size:18px;
+    color:rgb(51, 51, 51);
+    width: 67.67%;
+  }
+    
+  img {
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66.67%;
+    display: block;
+  }
